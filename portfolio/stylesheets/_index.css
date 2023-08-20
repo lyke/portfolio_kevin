@@ -1,0 +1,323 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  color:rgb(78, 92, 219);
+  font-family: 'Anton', sans-serif;
+  font-size: 60px;
+
+}
+
+h2 {
+  color: black;
+  font-family: 'Anton', sans-serif;
+  /* font-size: 40px; */
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* i {
+  font-size: 50px;
+  padding: 0vw 0.5vw;
+} */
+
+/* a {
+  color : white !important;
+  text-decoration: none !important;
+} */
+
+/* a:hover {
+  color: rgba(235, 235, 235, 0.7) !important;
+} */
+
+.contact-bar {
+  border: 1px dotted rgb(20, 20, 20);
+  /* margin: 20px auto 0 auto; */
+
+  /* width: 400px; */
+  padding: 1.5vh;
+  background-color: rgb(49, 53, 53);
+  box-shadow: 5px 5px 10px rgb(60, 60, 70);
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-bar li {
+  display: inline-block;
+}
+
+.contact-item {
+  font-size: 1vw;
+  margin: auto;
+  padding: 0vw 0.5vw;
+  color : white !important;
+  text-decoration: none !important;
+}
+
+.contact-item:hover {
+  /* color: rgba(235, 235, 235, 0.7) !important; */
+  color: rgb(54 144 247) !important;
+}
+
+.contact-num {
+  font-size: 1vw;
+  /* color: white; */
+  margin: auto 0.5vw;
+}
+
+.ul-block {
+  margin: 0.5vh 0vw;
+  display: flex;
+}
+
+.infos {
+  margin-left: 1vw;
+}
+
+.first-bg-img {
+  height: 100vh;
+  background-image: url("../images/home.jpg");
+  background-size: cover;
+}
+
+.second-bg-img {
+  height: 100vh;
+
+}
+
+.third-bg-img {
+  height: 100vh;
+}
+
+.fourth-bg-img {
+  height: 100vh;
+}
+
+.pages-titles {
+  color: black;
+  font-size: 6vh;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 4vh;
+  margin-bottom: 10vh;
+}
+
+.title-border {
+  border-top: 5px solid rgb(54 144 247 / 67%);
+  position: relative;
+  top: -8%;
+  left: 37.5vw;
+  width: 5vw;
+  height: 0.1vw;
+}
+
+#header_div {
+  /* background-color: cadetblue; */
+  /* background-image: url(images/blue_background.jpeg); */
+  /* background-size: cover; */
+}
+
+#button {
+  margin: 20 auto;
+  padding: 10px 35px;
+  border-radius: 4px;
+  color: white;
+  background-color: rgba(32, 112, 119, 0.7);
+}
+
+#button:hover{
+  background-color: rgba(32, 112, 119, 0.4);
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.home {
+  color: white;
+  font-size: 6vh;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 39vh;
+}
+
+.page-cont {
+  display: flex;
+  justify-content: center;
+  padding-top: 12vh;
+
+}
+
+.page-box {
+  width: 80vw;
+  height: 100vh;
+  border-top: 5px solid rgb(54 144 247 / 67%);
+  padding-top: 10vh;
+}
+
+.page-box-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.competences-boxes {
+  width: 50%;
+}
+
+.competences-boxes h3 {
+  margin-bottom: 4vh;
+}
+
+.dom-comp {
+  padding-left: 1vw;
+}
+
+.dom-comp i {
+margin-right: 0.8vw;
+color: rgb(54 144 247);
+}
+
+.bar-cont {
+  background-color: gray;
+  border-radius: 5px;
+}
+
+.bar-level {
+  padding-left: 1vw;
+  margin-bottom: 5vh;
+  background-color: rgb(54 144 247);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.bar-info {
+  color: white;
+}
+
+.dom-comp li {
+  margin-bottom: 5vh;
+  color: gray;
+  font-weight: 600;
+}
+
+.projects-card {
+  background-color: lightgray;
+  width: 30%;
+  /* padding: 1vw; */
+  color: gray;
+  text-decoration: none;
+}
+
+.projects-card:hover {
+  background-color: lightgrey;
+  color: white;
+  transition-duration: 0.3s;
+  /* box-shadow: 4px 4px 2px grey; */
+  box-shadow: 7px 7px 10px rgb(54 144 247 / 67%);
+}
+
+.card-desc {
+  padding: 5% 3% 3% 3%;
+}
+
+.card-desc h2 {
+  /* margin-top: 5%;
+  margin-bottom: 3%; */
+  font-size: 3vw;
+}
+
+.card-desc p {
+  font-size: 1.5vw;
+}
+
+.card-image {
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.contact-cont {
+  display: flex;
+}
+
+.contact-box {
+  width: 50%;
+}
+
+.contact-box form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-box p {
+  color: gray;
+  margin-left: 3vw;
+}
+.contact-box a {
+  color: gray;
+  text-decoration: none;
+}
+.contact-box a:hover {
+  color: rgb(54 144 247);
+  text-decoration: none;
+}
+
+form input, form textarea {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-bottom: 1vh;
+  padding: 0.2vw 0.8vw;
+}
+
+form input[type="submit"] {
+  width: auto;
+  font-weight: 600;
+  background-color: rgb(54 144 247 / 67%);
+  color: white;
+}
+
+form input[type="submit"]:hover {
+  background-color: rgb(54 144 247);
+  color: white;
+  font-weight: 600;
+}
+
+.contact-icon {
+  font-size: 2vw;
+  margin-right: 1vw;
+  color: rgb(54 144 247 / 67%);
+}
+
+.nav-paddind {
+  padding: 0.5rem 9.5vw;
+}
+
+#back-btn:hover {
+  cursor: pointer;
+}

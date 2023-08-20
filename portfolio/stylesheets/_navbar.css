@@ -1,0 +1,78 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  background: #ffffff1c;
+}
+.navbar-lewagon-scroll {
+  justify-content: space-between !important;
+  background-color: white !important;
+  color: black;
+  border-bottom: 2px solid gray;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.line-navbar {
+  margin-top: -1vh;
+  width: 100%;
+}
+
+/* .nav-icon {
+  color: white;
+  font-size: 2vh;
+  padding: 10px;
+} */
+
+.nav-btn {
+  color: white;
+  font-size: 2vh;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav-btn:hover {
+  color: rgb(54 144 247) !important;
+  font-size: 2vh;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav-btn-scroll:hover {
+  color: rgb(54 144 247) !important;
+  font-size: 2vh;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.navbar-nav li {
+  display: flex;
+  justify-content: left;
+}
+
+
+/* li a[href="#home"] {
+  position: relative;
+  top: 0.4vh;
+} */
+
+/* .navbar-toggler {
+  color: #59BCB6;
+  border: 0px solid;
+} */
+
+/* .fa-chevron-left {
+  color: black;
+  font-size: 23px;
+  font-weight: 200;
+} */
+
+/* .avatar {
+  margin-left: 5px;
+} */
+
+
+/* .fa-chevron-left:active {
+  color: white;
+  box-shadow: 2px 2px 5px #96908d;
+} */
