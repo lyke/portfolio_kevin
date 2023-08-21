@@ -55,8 +55,13 @@
 
   require_once ('vendor/autoload.php');
 
-  $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-  $dotenv->load();
+  if (file_exists(__DIR__ . '/.env')) {
+    $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+    $dotenv->load();
+}
+
+  // $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+  // $dotenv->load();
 
   $variableEnvEmail = $_ENV["EMAIL_USERNAME"];
   $variableEnvPassword = $_ENV["EMAIL_PASSWORD"];
