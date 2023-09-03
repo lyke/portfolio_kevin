@@ -33,7 +33,7 @@ ul {
 }
 
 .contact-item {
-  font-size: 1vw;
+  font-size: 11px;
   margin: auto;
   padding: 0vw 0.5vw;
   color : white !important;
@@ -46,7 +46,7 @@ ul {
 }
 
 .contact-num {
-  font-size: 1vw;
+  font-size: 11px;
   /* color: white; */
   margin: auto 0.5vw;
 }
@@ -208,7 +208,7 @@ color: rgb(54 144 247);
 
 .projects-card {
   background-color: lightgray;
-  width: 30%;
+  /* width: 30%; */
   /* padding: 1vw; */
   color: gray;
   text-decoration: none;

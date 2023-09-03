@@ -50,16 +50,15 @@
   justify-content: left;
 }
 
+.navbar-tog-bg {
+  background-color: #ffffff36 !important;
+}
 
 /* li a[href="#home"] {
   position: relative;
   top: 0.4vh;
 } */
 
-/* .navbar-toggler {
-  color: #59BCB6;
-  border: 0px solid;
-} */
 
 /* .fa-chevron-left {
   color: black;
