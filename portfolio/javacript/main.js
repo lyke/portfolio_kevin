@@ -35,3 +35,28 @@ navbarLinks.forEach(link => {
     }
   });
 });
+
+function toggleCardInfo(cardNumber) {
+    const cardInfo = document.getElementById('cardInf' + cardNumber);
+
+    cardInfo.style.display = cardInfo.style.display === 'none' ? 'block' : 'none';
+
+    for (let i = 1; i <= 2; i++) {
+      if (i !== cardNumber) {
+        document.getElementById('cardInf' + i).style.display = 'none';
+      }
+    }
+  }
+
+  // Ajoutez des écouteurs d'événements pour masquer les informations complémentaires lorsqu'on clique ailleurs sur la page
+  document.addEventListener('click', function (event) {
+    const cardInfoContainers = document.querySelectorAll('.ca');
+    const isClickInsideCard = Array.from(cardInfoContainers).some(container => container.contains(event.target));
+    const infoContainers = document.querySelectorAll('.card-info');
+
+    if (!isClickInsideCard) {
+      for (const container of infoContainers) {
+        container.style.display = 'none';
+      }
+    }
+  });
