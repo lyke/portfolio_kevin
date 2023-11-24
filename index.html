@@ -87,7 +87,7 @@
               <li><i class="fa-regular fa-circle-check"></i>GESTION DE PROJETS WEB</li>
               <!-- <li><i class="fa-regular fa-circle-check"></i>CONCEPTION GRAPHIQUE</li> -->
               <li><i class="fa-regular fa-circle-check"></i>APPLICATIONS SPÉCIFIQUES ET INTERFACE D'ADMINISTRATION</li>
-              <li><i class="fa-regular fa-circle-check"></i>DYNAMISE DES PAGES PAR JAVASCRIPT / AJAX</li>
+              <li><i class="fa-regular fa-circle-check"></i>DYNAMISE DES PAGES PAR JAVASCRIPT / STIMULUS</li>
               <!-- <li><i class="fa-regular fa-circle-check"></i>RÉFÉRENCEMENT NATUREL SEO</li> -->
               <li><i class="fa-regular fa-circle-check"></i>CONCEPTION MULTI-PLATEFORMES</li>
             </ul>
@@ -96,9 +96,9 @@
             <div>
               <h3>Compétences en développement</h3>
               <div class="bar-cont"><div class="bar-level" style="width: 70%;"><span class="bar-info">HTML - CSS</span></div></div>
+              <div class="bar-cont"><div class="bar-level" style="width: 70%;"><span class="bar-info">JAVASCRIPT</span></div></div>
               <div class="bar-cont"><div class="bar-level" style="width: 60%;"><span class="bar-info">RUBY ON RAILS</span></div></div>
-              <div class="bar-cont"><div class="bar-level" style="width: 55%;"><span class="bar-info">JAVASCRIPT - AJAX</span></div></div>
-              <div class="bar-cont"><div class="bar-level" style="width: 50%;"><span class="bar-info">POSTGRESQL - MYSQL - SQL</span></div></div>
+              <div class="bar-cont"><div class="bar-level" style="width: 60%;"><span class="bar-info">POSTGRESQL - MYSQL</span></div></div>
             </div>
             <div>
               <h3>Compétences en conception graphique</h3>
@@ -116,7 +116,8 @@
 
         <div class="container">
           <div class="row">
-            <a href="https://www.roamly.site/" class="card-link col-12 col-md-4 col-lg-4" target="_blank">
+
+            <div id="roamlyCard1" class="col-12 col-md-4 col-lg-4 ca" onclick="toggleCardInfo(1)">
               <div class="projects-card">
                 <div>
                   <img src="portfolio/images/roamly-pres.jpg" alt="Roamly App" class="card-image">
@@ -126,8 +127,44 @@
                   <p>DÉVELOPPEMENT WEB</p>
                 </div>
               </div>
-            </a>
+            </div>
+
+            <div id="roamlyCard2" class="col-12 col-md-4 col-lg-4 ca" onclick="toggleCardInfo(2)">
+              <div class="projects-card">
+                <div>
+                  <img src="portfolio/images/TimeManager.jpg" alt="Roamly App" class="card-image">
+                </div>
+                <div class="card-desc">
+                  <h2>Time Manager</h2>
+                  <p>DÉVELOPPEMENT WEB & MOBILE</p>
+                </div>
+              </div>
+            </div>
+
           </div>
+        </div>
+
+        <div id="cardInf1" class="card-info ca">
+          <h2 style="text-align: center;">ROAMLY</h2>
+          <p>Roamly est une application web et web mobile permettant de planifier l'ensemble des activités durant un voyage de façon 100% personalisée en seulement quelques clicks !</p>
+          <ul>
+            <li>Ruby on Rails</li>
+            <li>HTML - CSS</li>
+            <li>JavaScript - Stimulus</li>
+            <li>PostgreSQL</li>
+          </ul>
+        </div>
+
+        <div id="cardInf2" class="card-info ca">
+          <h2 style="text-align: center;">Time Manager</h2>
+          <p>TimeManager est une application web et mobile permettant de manager les temps de travail dans une entreprise.</p>
+          <ul>
+            <li>Elixir - Phoenix</li>
+            <li>Vue.js</li>
+            <li>React Native</li>
+            <li>PostgreSQL</li>
+            <li>Docker</li>
+          </ul>
         </div>
 
     </div>
